@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+<style>
+    body { 
+        background-color: #fce4ec; 
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #880e4f;
+        scroll-behavior: smooth;}
+
+    .main-container {
+        background-color: white;
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 60px;
+        border-radius: 50px;
+        box-shadow: 20px 20px 0px #f8bbd0;
+        border: 2px solid #f8bbd0;}
+
+    nav {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        padding: 15px 30px;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4);
+        position: sticky;
+        top: 20px;
+        z-index: 1000;
+        margin: 20px auto;
+        width: fit-content;
+        border: 1px solid #f8bbd0;}
+
+    nav a {
+        text-decoration: none;
+        color: #d81b60;
+        margin: 0 15px;
+        font-weight: 600;
+        font-size: 14px;
+        transition: 0.3s;}
+
+    nav a:hover { color: #ff80ab; }
+
+    h1 { 
+        font-family: 'Dancing Script', cursive; 
+        font-size: 40px;
+        color: #ad1457; 
+        text-align: center;
+        border-bottom: 2px dashed #f8bbd0;
+        padding-bottom: 25px;
+        margin-bottom: 40px;}
+
+    h2 { 
+        font-family: 'Dancing Script', cursive; 
+        font-size: 32px;
+        color: #c2185b;
+        margin-top: 50px;
+        border-left: 6px solid #f8bbd0;
+        padding-left: 20px;}
+
+    h3 { 
+        color: #ad1457; 
+        font-family: 'Poppins', sans-serif; 
+        margin-top: 40px;
+        font-weight: 600;
+        background: #fff5f8;
+        padding: 10px 20px;
+        border-radius: 15px;
+        border-right: 4px solid #f8bbd0;}
+
+    p { 
+        font-size: 16px; 
+        line-height: 1.8; 
+        text-align: justify; 
+        margin-bottom: 20px;}
+
+    ul { font-size: 16px; line-height: 1.8; list-style-type: '🌸 '; }
+    li { margin-bottom: 12px; }
+
+    img { 
+        display: block;
+        margin: 30px auto; 
+        border-radius: 30px;
+        border: 10px solid #fff5f8;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        max-width: 50%;
+        transition: 0.3s;}
+    
+    img:hover { transform: scale(1.02); }
+
+    .grid-foto {
+        text-align: center;
+        margin: 20px 0;}
+
+    .grid-foto img {
+        display: inline-block;
+        width: 50%;
+        margin: 5px;}
+
+    .music-player-box {
+        background: linear-gradient(to right, #fff0f5, #ffe4e1);
+        padding: 25px;
+        border-radius: 35px;
+        border: 1px solid #ffb6c1;
+        margin: 30px auto;
+        max-width: 500px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);}
+
+    .now-playing {
+        font-family: 'Dancing Script', cursive;
+        font-size: 18px;
+        color: #d87093;
+        margin-bottom: 10px;}
+
+    hr { border: 0; height: 1px; background: #f8bbd0; margin: 50px 0; }
+
+    footer {
+        text-align: center;
+        padding: 50px;
+        background-color: #fffafb;
+        border-radius: 40px;
+        margin-top: 80px;
+        border: 1px solid #fce4ec;}
+
+    .back-to-top {
+        position: fixed; bottom: 30px; right: 30px;
+        background-color: white; color: #ffb6c1;
+        width: 55px; height: 55px; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        text-decoration: none; font-size: 30px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border: 2px solid #f8bbd0;}
+        
+        a:link {color: purple; background-color: transparent; text-			decoration: none;}
+		a:visited {color: pink; background-color: transparent; text 		decoration: none;}
+		a:hover {color: blue; background-color: transparent; text-			decoration: none;}
+		a:active {color: yellow; background-color: transparent; text-		 decoration: none;}
+
+</style>
+</head>
+
+<body>
+<nav>
+    <a href="#tentangsaya">Home</a>
+    <a href="#profil">Profiel</a>
+    <a href="#pendidikan">Education</a>
+    <a href="#karir">Career</a>
+    <a href="#keahlian">Skill</a>
+    <a href="pengalaman">Experience</a>
+<a href="exp1.html">Experience</a>
+</nav>
+
+<div class="main-container">
+    <h1 id="tentangsaya">𐙚 BIOGRAFI SALZABIELLA AFIFFAH NUR HIDAYAH 𐙚</h1>
+
+    <h2>TENTANG SAYA</h2>
+    <p>Selamat datang di website profil pribadi saya. Saya Salzabiella Afiffah Nur Hidayah, mahasiswi Manajemen di Universitas Gunadarma. Melalui halaman ini, saya ingin membagikan informasi mengenai latar belakang diri serta berbagai pengalaman yang telah saya lalui selama ini. Website ini berfungsi sebagai ruang dokumentasi untuk merangkum momen-momen berharga dan aktivitas yang pernah saya ikuti. Terima kasih telah berkunjung untuk mengenal lebih jauh mengenai profil dan perjalanan saya.</p>
+
+    <img src="profiel.jpeg" alt="profiel">
+      
+    <h2 id="profil">PROFIL</h2>
+    <ul>
+        <li><strong> Nama:</strong> Salzabiella Afiffah Nur Hidayah</li>
+        <li><strong> Tempat/Tanggal Lahir:</strong> Tangerang, 21 Desember 2006</li>
+        <li><strong> Alamat:</strong> Bumi Indah Tahap 3, Pasar Kemis, Kabupaten Tangerang, 15560</li>
+        <li><strong> Jenis Kelamin:</strong> Perempuan</li>
+        <li><strong> No. HP:</strong> 0878-0567-4057</li>
+        <li><strong> Email:</strong> salzabiella06@gmail.com</li>
+        <li><strong> Kewarganegaraan:</strong> Indonesia</li>
+    </ul>
+
+    <h2 id="pendidikan">RIWAYAT PENDIDIKAN</h2>
+    <p><strong>SD:</strong> <a href="https://sdi.daarulhuda.sch.id" target="_blank"> SDI Daarul Huda</a> (2013-2019)</p>
+    <p>Selama masa sekolah dasar, saya mengikuti ekstrakulikuler <strong>Pramuka</strong>, menjadi anggota <strong>English Club</strong> dan pernah berpartisipasi dalam <strong> Lomba Paskibra</strong> tingkat kota dan kabupaten.</p>
+    
+    <p><strong>SMP:</strong> <a href="https://apps.mtsmathlaulanwar.sch.id" target="_blank"> MTS Matla'ul Anwar</a> (2019-2022)</p>
+    <p>Pada masa ini, saya berfokus pada pengembangan akademik dan mengeksplorasi minat pribadi sebelum melanjukan ke jenjang kerjuruan.</p>
+    
+    <p><strong>SMK:</strong> <a href="https://smkavicenarajeg.sch.id" target="_blank"> SMK Avicena Rajeg</a> (2022-2025)</p>
+    <p>Mengambil jurusan <strong>Otomatisasi & Tata Kelola Perkantoran</strong>. Dimana saya mendalami manajemen kearsipan, administrasi, saya juga aktif di ekstrakulikuler <strong>Basket</strong> dan sukses menyelesaikan program <strong>PKL.</strong></p>
+    
+    <p><strong>Perguruan Tinggi:</strong> <a href="https://gunadarma.ac.id" target="_blank"> Universitas Gunadarma</a> (2025-Sekarang)</p>
+    <p>Mahasiswa aktif jurusan <strong>Manajemen</strong>. Fokus utama saya saat ini adalah mendalami bidang ekonomi dan bisnis guna mempersiapkan diri menjadi tenaga profesional di masa mendatang.</p>
+    
+	<h2 id="karir">RIWAYAT PROFESIONAL</h2>
+    <p>Praktik Kerja Lapangan (PKL)</p>
+    <p>PT.LUMICA INDONESIA | Tangerang</p>
+    <p>Februari-April 2022</p>
+    <ul>
+    	<li>Melakukan proses pengepakan (packing) produk sesuai standar perusahaaan.</li>
+        <li>Menyortir dan memastikan produk dalam kondisi layak sebelum dikirim.</li>
+    </ul>
+        
+    <h2 id="keahlian">KEAHLIAN</h2>
+    <ul>
+        <li>Mahir mengelola alur surat masuk dan surat keluar serta sistem kearsipan dokumen secara sistematis.</li>
+        <li>Menguasai dasar-dasar etika bertelepon (Telephone Manners) sebagai resepsionis dalam menangani panggilan secara formal dan sopan.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="pengalaman">PENGALAMAN</h2>
+
+    <h3>THE LAST CHAPTER: Lembaran Terakhir di Putih Abu-Abu ୨ৎ</h3>
+    <img src="angkatan1.jpeg" alt="angkatan1">
+    
+    <div class="music-player-box">
+        <div class="now-playing">♫ Now Playing: Tujuh Belas - Tulus ୨ৎ</div>
+        <audio controls style="width: 100%; height: 35px;">
+          <source src="Tujuh Belas-Tulus.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <p>Ujian telah usai, dan tugas-tugas sekolah pun akhirnya tuntas kami jalani. Hari yang kami tunggu-tunggu tiba: Foto Angkatan. Ada rasa tidak percaya bisa sampai di titik ini. Bagiku, momen ini bukan sebuah akhir, melainkan awal dari perjalanan baru yang sebenarnya.</p>
+    <p>Persiapan matang dari panitia terlihat jelas sejak jauh hari. Mulai dari konsep yang tertata hingga deretan bangku yang disusun menjadi tangga, semuanya dipersiapkan dengan penuh dedikasi. Kami hanya tinggal hadir untuk merayakan momen berharga ini bersama-sama.</p>
+    <p>Kegiatannya cukup padat dan berkesan. Dimulai dari sesi foto berseragam putih abu-abu di tengah hari, pembuatan video singkat, hingga momen seru saat kami basah-basahan di bawah semprotan mobil pemadam kebakaran.</p>
+    <p>Suasana semakin meriah saat malam tiba. Dengan balutan pakaian hitam abu-abu, kami menutup hari dengan pendar kembang api dan kepulan asap warna-warni. Kekompakan ini adalah sebuah memori indah yang akan selalu tersimpan dalam ingatan, sampai kapan pun.</p>
+    
+    <div class="grid-foto">
+        <img src="angkatan2.jpeg">
+        <img src="angkatan3.jpg">
+        <img src="angkatan4.jpeg">
+    </div>
+    <p style="text-align: center; font-size: 12px; color: #ad1457; letter-spacing: 2px;">— MEMORI SMK AVICENA, 2025 —</p>
+
+    <hr>
+
+    <h3>THE HERITAGE STORY: Kenangan Abadi dalam Balutan Kebaya ୨ৎ</h3>
+    <img src="yearbook1.jpeg" alt="yearbook1">
+    
+    <div class="music-player-box">
+        <div class="now-playing">♫ Now Playing: Java Song ୨ৎ</div>
+        <audio controls style="width: 100%; height: 35px;">
+          <source src="soundjawa.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <p>Hari yang kami tunggu-tunggu akhirnya tiba. Setelah melihat keseruan kelas-kelas lain yang sudah lebih dulu mendapatkan sesi foto, kini giliran kelas kami yang mengisi lembaran buku tahunan. Kami sudah menyiapkan konsep ini sejak lama: <strong>Kebaya Jawa.</strong> Perpaduan warna hitam dan merah untuk kami, serta sentuhan hijau untuk guru kami, menciptakan harmoni yang sangat elegan di tengah restoran bernuansa Jawa yang asri.</p>
+    <p>Perjuangan dimulai sejak pagi buta. Aku sudah berada di rumah teman untuk <i>makeup</i> bersama MUA yang kami sewa. Rasanya seru sekali melihat kesibukan di pagi hari; ada yang sibuk memulas wajah, ada yang sedang bergelut memakai kain, hingga saling membantu memasang aksesori agar terlihat sempurna. Setelah semuanya siap, kami bergegas ke sekolah untuk berangkat bersama menuju lokasi.</p>
+    <p>Perjalanan menuju ke sana memang cukup menantang karena jalannya yang kurang bagus, tapi semua itu terbayar saat sampai. Suasananya sangat tenang, seperti kembali ke perkampungan yang asri. Sebelum mulai, kami melakukan sesi foto bersama sekelas. Setelahnya, kami beristirahat sejenak sambil menikmati ayam bakar yang nikmat dan jus alpukat segar. Rasanya benar-benar seperti sedang berlibur bersama keluarga besar.</p>
+    <p>Sesi foto utama pun dimulai. Sambil menunggu giliran per kelompok, kami menghabiskan waktu dengan "acara bebas"-mengambil foto sebanyak mungkin dengan HP masing-masing, bercerita, dan menikmati pemandangan. Setelah sesi kelompok dan peroranganku selesai, suasana makin pecah saat kami mulai karaokean dan joget bersama.</p>
+    <p>Lelahnya memakai kebaya seharian hilang seketika karena rasa seru yang luar biasa. Kami pulang dengan hati yang sangat senang. Dan sekarang, saat buku tahunan itu sudah berada di tanganku, aku menyadari satu hal. Di sana, aku menuliskan sebuah kutipan yang sangat berarti:</p>
+    <p><strong>"Pada akhirnya, ini semua hanyalah permulaan." —Nadin Amizah ୨ৎ</strong></p>
+
+    <div class="grid-foto">
+        <img src="yearbook2.jpeg">
+        <img src="yearbook3.jpeg">
+        <img src="yearbook4.jpeg">
+    </div>
+    <p style="text-align: center; font-size: 12px; color: #ad1457; letter-spacing: 2px;">— MEMORI SMK AVICENA, 2025 —</p>
+
+    <hr>
+
+    <h3>THE NEW CHAPTER: Langkah Awal di Gerbang Almamater ୨ৎ</h3>
+    <img src="ospek1.jpeg" alt="ospek1">
+    
+    <div class="music-player-box">
+        <div class="now-playing">♫ Now Playing: Tak Ada Yang Abadi ୨ৎ</div>
+        <audio controls style="width: 100%; height: 35px;">
+          <source src="takadayangabadi.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <p>Menjadi bagian dari mahasiswa baru adalah sebuah kebanggaan besar bagi saya. Pengalaman ospek kemarin di Depok benar-benar memberikan kesan yang mendalam. Agar tidak terlambat, saya dan beberapa teman memutuskan untuk menginap di apartemen sekitar lokasi satu hari sebelumnya.</p>
+    <p>Momen ospek terasa sangat seru! Kami disambut dengan berbagai penampilan luar biasa dari kakak tingkat, mulai dari atraksi silat yang gagah hingga tarian yang memukau. Rasanya waktu berlalu begitu cepat meskipun acara berlangsung hingga sore hari. Selain pengalaman baru, saya juga pulang membawa banyak relasi teman baru. Kami menutup hari itu dengan foto bersama sebelum akhirnya menempuh perjalanan pulang ke Tangerang menggunakan kereta.</p>
+    
+    <div class="grid-foto">
+        <img src="ospek2.jpeg">
+        <img src="ospek3.jpeg">
+        <img src="ospek4.jpeg">
+    </div>
+    <p style="text-align: center; font-size: 12px; color: #ad1457; letter-spacing: 2px;">— MEMORI UNIVERSITAS GUNADARMA, 2025 —</p>
+
+    <hr>
+
+    <h3>Ethereal Moments: Merajut Kedekatan di Bawah Langit Bogor ୨ৎ</h3>
+    <img src="makrab1.jpeg" alt="makrab1">
+    
+    <div class="music-player-box">
+        <div class="now-playing">♫ Now Playing: Ingatlah Hari Ini ୨ৎ</div>
+        <audio controls style="width: 100%; height: 35px;">
+          <source src="ingatlahhariini.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <p>Hanya berselang dua bulan setelah ospek, jurusan Manajemen mengadakan acara Makrab di sebuah villa di Bogor. Sambil menunggu bus berangkat, aku tetap menyempatkan diri untuk ikut kuliah online.</p>
+    <p>Sesampainya di sana, kami langsung disambut semangkuk bakso hangat di sebuah saung. Suasananya sangat syahdu, udara dingin yang sejuk berpadu dengan suara aliran sungai yang deras tepat di samping tempat kami makan. Di malam harinya, momen keakraban mulai terasa saat acara tukar kado. Di sini pula aku mendapatkan teman sekamar dari kelas lain yang akhirnya menjadi akrab.</p>
+    <p>Keesokan harinya diawali dengan sarapan dan kuliah online bersama, lalu dilanjutkan dengan berbagai games seru. Meskipun timku kalah, rasa senang tetap mendominasi. Momen yang paling berkesan adalah saat kami menyalakan api unggun, menerbangkan lampion ke langit malam, dan duduk bercerita di pinggir kolam. Pengalaman ini benar-benar tidak terlupakan.</p>
+    
+    <div class="grid-foto">
+        <img src="makrab2.jpeg">
+        <img src="makrab3.jpeg">
+        <img src="makrab4.jpeg">
+    </div>
+    <p style="text-align: center; font-size: 12px; color: #ad1457; letter-spacing: 2px;">— MEMORI UNIVERSITAS GUNADARMA, 2025 —</p>
+
+    <footer>
+        <h2 id="kontak">LET'S CONNECT!</h2>
+        <ul style="list-style-type: none; padding: 0;">
+          <li>📧 <strong>Email:</strong> <a href="mailto:salzabiella06@gmail.com">salzabiella06@gmail.com</a></li>
+          <li>📱 <strong>WhatsApp:</strong> <a href="https://wa.me/6287805674057">0878-0567-4057</a></li>
+          <li>📍 <strong>Lokasi:</strong> Pasar Kemis, Kabupaten Tangerang</li>
+        </ul>
+        <hr>
+        <p><center><strong>୨ৎ Salzabiella Afiffah Nur Hidayah | PKTI 2C | Crafted with heart ୨ৎ</strong></center></p>
+    </footer>
+</div>
+
+<a href="#tentangsaya" class="back-to-top">↑</a>
+
+</body>
+</html>
+
